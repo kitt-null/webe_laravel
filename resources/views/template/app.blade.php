@@ -23,11 +23,11 @@
     <body class="antialiased">
         <header>
             <nav>
-                <a href="">Home</a>
-                <a href="">Profile</a>
-                <a href="">Menu</a>
-                <a href="">Settings</a>
-                <a href="">Donate</a>
+                <a href="{{route('welcome')}}">Home</a>
+                <a href="{{route('profile')}}">Profile</a>
+                <a href="{{route('menu')}}">Menu</a>
+                <a href="{{route('settings')}}">Settings</a>
+                <a href="{{route('donate')}}">Donate</a>
             </nav>
         </header>
             @yield('content')
